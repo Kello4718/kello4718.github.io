@@ -44,10 +44,9 @@ const changeMainSlide = slide => {
 
 for (let i = 0; i < coursesSlides.length; i++) {
   changeMainSlide(coursesSlides[i]);
-}
-
-console.log(coursesMainSlideImage); // Переменные
+} // Переменные
 //const preloader = document.querySelector('.preloader');
+
 
 const hobbyItemsDescription = document.querySelectorAll('.hobby__item-description');
 const hobbySvgFrontend = document.querySelector('.hobby__svg-frontend');
